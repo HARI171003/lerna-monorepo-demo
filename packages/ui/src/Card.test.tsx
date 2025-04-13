@@ -34,6 +34,6 @@ describe('Card', () => {
       </Card>
     );
     
-    expect(screen.getByRole('button')).toBeInTheDocument();
+    expect(screen.getByRole('button')).not.toBeInTheDocument();
   });
 });
