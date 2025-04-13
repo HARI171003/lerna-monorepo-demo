@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-NODE_OPTIONS="--no-deprecation" npx lerna run test --stream --no-bail
+NODE_OPTIONS="--no-deprecation" npm run test
