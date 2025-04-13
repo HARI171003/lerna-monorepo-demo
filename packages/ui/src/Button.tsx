@@ -23,7 +23,7 @@ export interface ButtonProps {
  * Primary UI component for user interaction
  */
 export const Button: React.FC<ButtonProps> = ({
-  label,
+  label = 'Button',
   onClick,
   variant = 'primary',
   disabled = false,
